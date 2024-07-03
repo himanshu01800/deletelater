@@ -1,0 +1,34 @@
+*{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+.Hbox{
+    background:url('../images/grow.jpg');
+    margin-top: 60px;
+
+    height: 100%;
+    width: 100%; /* Use 100vw instead of 110vw */
+    background-size: cover; /* This ensures the background image covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; 
+    
+}
+.message{
+    height: 800px;
+    width:800px;
+    color: rgb(219, 0, 0);
+    padding :80px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.big{
+    font-size: 40px;
+    color: rgb(13, 123, 220);
+}
+.mid{
+    font-size: 60px;
+    color: rgb(2, 58, 64);
+}
